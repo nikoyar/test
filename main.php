@@ -1,8 +1,7 @@
 <?php
-class shopShiptorPlugin extends shopPlugin
-{
+class shopShiptorPlugin extends shopPlugin {
     private $allowedActions = array(
-        "new"     => array(
+			"new"	=> array(
             "open"   => array(
                 "name"   => "Открыть посылку",
                 "target" => "_blank",
