@@ -1,8 +1,7 @@
 <?php
-class shopShiptorPlugin extends shopPlugin
-{
+class shopShiptorPlugin extends shopPlugin {
     private $allowedActions = array(
-        "new"     => array(
+			"new"	=> array(
             "open"   => array(
                 "name"   => "Открыть посылку",
                 "target" => "_blank",
@@ -62,7 +61,7 @@ class shopShiptorPlugin extends shopPlugin
                 "href"   => '//shiptor.ru/account/shipment/edit/{$shiptor_id}',
                 "class"  => "",
                 "icon"   => "edit"
-            ),
+            ), 
            /* "delete" => array(
                 "name"   => "Удалить отгрузку",
                 "target" => "_self",
